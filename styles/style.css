@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(60, 60, 246);
+}
+
+nav ul li a:hover {
+    color: rgb(34, 123, 34);
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    width: 60%;
+    height: 400px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    color: #f5eee4;
+    padding: 40px;
+    border-radius: 6px 0 0 6px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    color: #f5eee4;
+    padding: 40px;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    color: #f5eee4;
+    padding: 40px;
+    border-radius: 0 6px 6px 0;
+}
+
+.luxury p,
+.suvs p,
+.sedans p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-sedans {
+    margin-top: 80px;
+    padding: 12px;
+    width: 70%;
+    color: #e28525;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn-suvs {
+    margin-top: 80px;
+    padding: 12px;
+    width: 70%;
+    color: #016972;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn-lux {
+    margin-top: 80px;
+    padding: 12px;
+    width: 70%;
+    color: #00403f;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 840px) {
+
+    .sedans,
+    .suvs,
+    .luxury {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 840px) and (max-width:1200px) {
+
+    .sedans,
+    .suvs,
+    .luxury {
+        width: 100%;
+    }
+}
